@@ -1,0 +1,48 @@
+* {
+    margin: 0px 10%;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+}
+#nombre {
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    border-color: steelblue;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+#password {
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    border-color: steelblue;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+label {
+    margin-top: 0px 10px;
+}
+button {
+    width: 70%;
+    height: 40px;
+    font-size: 20px;
+    background-color: steelblue;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #6ca3cc;
+    cursor: pointer;
+}
+.siVisible {
+    color: red;
+    font-size: 15px;
+}
+.noVisible {
+    display: none;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica 8 Formulario</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <form action="" method="get" id="login">
+        <div>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre"><br><span id="errorNombre" class="noVisible"> Error Nombre</span>
+        </div>
+        <div>
+            <input type="password" name="password" id="password" placeholder="Password"><br><span id="errorPassword" class="noVisible"> Error Password</span>
+        </div>
+        <div>
+            <label>¿Cúales son tus papas favoritas?</label> <br>
+            <input type="radio" name="option" id="radio1" value="Cheetos">Cheetos <br>
+            <input type="radio" name="option" id="radio2" value="Fritos">Fritos <br>
+            <input type="radio" name="option" id="radio3" value="Rancheritos">Rancheritos <br>
+            <span id="errorPapas" class="noVisible"> Error Papas</span>
+        </div>
+        <div>
+            <label>¿Qué salsa prefieres?</label> <br>
+            <input type="checkbox" name="optionCb" id="check1" value="Valentina">Valentina <br>
+            <input type="checkbox" name="optionCb" id="check2" value="San Luis">San Luis <br>
+            <input type="checkbox" name="optionCb" id="check3" value="Botanera">Botanera <br>
+            <span id="errorSalsa" class="noVisible"> Error Salsa</span>
+        </div>
+        <div>
+            <button type="submit">Enviar Datos</button>        
+        </div>
+    </form>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
